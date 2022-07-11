@@ -1,0 +1,52 @@
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\appsettings.Development.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\appsettings.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.staticwebassets.runtime.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.exe
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.deps.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.runtimeconfig.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.dll
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.pdb
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.csproj.AssemblyReference.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.AssemblyInfoInputs.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.AssemblyInfo.cs
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.csproj.CoreCompileInputs.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.MvcApplicationPartsAssemblyInfo.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.RazorAssemblyInfo.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.RazorAssemblyInfo.cs
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\staticwebassets.build.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\staticwebassets.development.json
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\bundle\ConsumerFoodSRS.styles.css
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\projectbundle\ConsumerFoodSRS.bundle.scp.css
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.dll
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\refint\ConsumerFoodSRS.dll
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.pdb
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.genruntimeconfig.cache
+D:\Workspaces\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ref\ConsumerFoodSRS.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\appsettings.Development.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\appsettings.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.staticwebassets.runtime.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.exe
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.deps.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.runtimeconfig.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\ConsumerFoodSRS.pdb
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.csproj.AssemblyReference.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.AssemblyInfoInputs.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.AssemblyInfo.cs
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.csproj.CoreCompileInputs.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.MvcApplicationPartsAssemblyInfo.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.RazorAssemblyInfo.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.RazorAssemblyInfo.cs
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\staticwebassets.build.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\staticwebassets.development.json
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\bundle\ConsumerFoodSRS.styles.css
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\scopedcss\projectbundle\ConsumerFoodSRS.bundle.scp.css
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\refint\ConsumerFoodSRS.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.pdb
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.genruntimeconfig.cache
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ref\ConsumerFoodSRS.dll
