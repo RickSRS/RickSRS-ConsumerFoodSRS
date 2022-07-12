@@ -1,4 +1,6 @@
 ﻿using ConsumerFoodSRS.Context;
+using ConsumerFoodSRS.Repositories;
+using ConsumerFoodSRS.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace ConsumerFoodSRS;
@@ -16,6 +18,9 @@ public class Startup
     {
         services.AddEntityFrameworkNpgsql().AddDbContext<AppDbContext>(options =>
         options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddTransient<ILancheRepository, LancheRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
         services.AddControllersWithViews();
     }
