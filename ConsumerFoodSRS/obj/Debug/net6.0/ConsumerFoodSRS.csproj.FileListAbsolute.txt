@@ -50,3 +50,14 @@ D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\n
 D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.pdb
 D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.genruntimeconfig.cache
 D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ref\ConsumerFoodSRS.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Humanizer.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Npgsql.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS\obj\Debug\net6.0\ConsumerFoodSRS.csproj.CopyComplete
