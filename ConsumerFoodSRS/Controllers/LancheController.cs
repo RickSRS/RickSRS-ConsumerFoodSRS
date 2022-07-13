@@ -15,6 +15,9 @@ public class LancheController : Controller
     public IActionResult List()
     {
         var lanches = _lancheRepository.Lanches;
+
+        ViewData["Titulo"] = "Cardápio de Lanches";
+
         return View(lanches);
     }
 }
