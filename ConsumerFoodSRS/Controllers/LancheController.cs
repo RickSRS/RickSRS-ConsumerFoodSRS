@@ -1,4 +1,5 @@
 ﻿using ConsumerFoodSRS.Repositories.Interfaces;
+using ConsumerFoodSRS.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsumerFoodSRS.Controllers;
@@ -14,10 +15,10 @@ public class LancheController : Controller
 
     public IActionResult List()
     {
-        var lanches = _lancheRepository.Lanches;
+        var model = new LancheListViewModel();
+        model.Lanches = _lancheRepository.Lanches;
+        model.CategoriaAtual = "Categoria Atual";
 
-        ViewData["Titulo"] = "Cardápio de Lanches";
-
-        return View(lanches);
+        return View(model);
     }
 }
