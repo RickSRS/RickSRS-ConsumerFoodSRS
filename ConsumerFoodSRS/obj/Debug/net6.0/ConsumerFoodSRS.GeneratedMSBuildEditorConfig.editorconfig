@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Workspaces\Visual Studio\Projetos\ConsumerFoodSRS\ConsumerFoodSRS
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Workspaces/Visual Studio/Projetos/ConsumerFoodSRS/ConsumerFoodSRS/Views/CarrinhoCompra/Carrinho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcQ2FycmluaG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workspaces/Visual Studio/Projetos/ConsumerFoodSRS/ConsumerFoodSRS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

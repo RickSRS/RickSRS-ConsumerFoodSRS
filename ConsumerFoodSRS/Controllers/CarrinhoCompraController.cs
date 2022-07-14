@@ -16,7 +16,7 @@ public class CarrinhoCompraController : Controller
         _carrinhoCompra = carrinhoCompra;
     }
 
-    public IActionResult Index()
+    public IActionResult Carrinho()
     {
         var itens = _carrinhoCompra.GetCarrinhoCompraItens();
         _carrinhoCompra.CarrinhoCompraItens = itens;
@@ -39,7 +39,7 @@ public class CarrinhoCompraController : Controller
             _carrinhoCompra.AdicionarAoCarrinho(lancheSelecionado);
         }
 
-        return RedirectToAction("Index");
+        return RedirectToAction("Carrinho");
     }
 
     public RedirectToActionResult RemoverItemCarrinhoCompra(int lancheId)
@@ -51,6 +51,6 @@ public class CarrinhoCompraController : Controller
             _carrinhoCompra.RemoverDoCarrinho(lancheSelecionado);
         }
 
-        return RedirectToAction("Index");
+        return RedirectToAction("Carrinho");
     }
 }
