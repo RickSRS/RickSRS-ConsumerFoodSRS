@@ -1,4 +1,5 @@
 ﻿using ConsumerFoodSRS.Context;
+using ConsumerFoodSRS.Models;
 using ConsumerFoodSRS.Repositories;
 using ConsumerFoodSRS.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -21,8 +22,8 @@ public class Startup
 
         services.AddTransient<ILancheRepository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
-
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped(x => CarrinhoCompra.GetCarrinho(x));
 
         services.AddControllersWithViews();
 
