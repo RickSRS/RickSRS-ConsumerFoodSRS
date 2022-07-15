@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dIJuTLI41nvudlX/SoFBwD6Igb2u1KXors7PW3b9cUE=",
+  "Hash": "ykChAshEtxDT9dPTG3VLXkGpiWTt1IIn6uV/Yvcj4pk=",
   "Source": "ConsumerFoodSRS",
   "BasePath": "_content/ConsumerFoodSRS",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carousel13.jpg"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\cart-5-16.ico",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/cart-5-16.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cart-5-16.ico"
     },
     {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\Full-Cart-icon.png",
