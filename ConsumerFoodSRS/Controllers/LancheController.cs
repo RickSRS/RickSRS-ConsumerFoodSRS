@@ -1,4 +1,5 @@
-﻿using ConsumerFoodSRS.Repositories.Interfaces;
+﻿using ConsumerFoodSRS.Models;
+using ConsumerFoodSRS.Repositories.Interfaces;
 using ConsumerFoodSRS.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,11 +14,26 @@ public class LancheController : Controller
         _lancheRepository = lancheRepository;
     }
 
-    public IActionResult List()
+    public IActionResult List(string categoria)
     {
-        var model = new LancheListViewModel();
-        model.Lanches = _lancheRepository.Lanches;
-        model.CategoriaAtual = "Categoria Atual";
+        IEnumerable<Lanche> lanches;
+        string categoriaAtual = string.Empty;
+
+        if (string.IsNullOrEmpty(categoria))
+        {
+            lanches = _lancheRepository.Lanches.OrderBy(x => x.LancheId);
+        }
+        else
+        {
+            lanches = _lancheRepository.Lanches.Where(x => x.Categoria.CategoriaNome.ToUpper().Equals(categoria.ToUpper())).OrderBy(x => x.LancheId);
+            categoriaAtual = categoria;
+        }
+
+        var model = new LancheListViewModel
+        {
+            Lanches = lanches,
+            CategoriaAtual = categoriaAtual
+        };
 
         return View(model);
     }
