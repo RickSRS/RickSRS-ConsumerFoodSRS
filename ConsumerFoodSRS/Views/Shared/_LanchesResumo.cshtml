@@ -5,11 +5,13 @@
         <img src="@(Model.ImagemUrl)" class="card-img-top">
     </div>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 card-body">
-        <h5 class="card-title">@(Model.Nome)</h5>
+        <h5 class="card-title">
+            <a asp-controller="Lanche" asp-action="Details" asp-route-lancheId="@Model.LancheId">@(Model.Nome)</a>
+        </h5>
         <p class="card-text">@(Model.DescricaoCurta)</p>
     </div>
     <div class=" col-12 col-sm-12 col-md-12 col-lg-12 list-group list-group-flush">
         <h5 class="list-group-item">@(Model.Preco.ToString("c")) </h5>
     </div>
-    <a href="#" class="m-1 btn btn-success">Adicionar ao Carrinho</a>
+    <a asp-controller="CarrinhoCompra" asp-action="AdicionarCarrinhoCompra" asp-route-lancheId="@Model.LancheId" class="m-1 btn btn-success">Adicionar ao Carrinho</a>
 </div>
