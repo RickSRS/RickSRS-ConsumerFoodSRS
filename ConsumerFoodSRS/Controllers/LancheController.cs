@@ -22,11 +22,15 @@ public class LancheController : Controller
         if (string.IsNullOrEmpty(categoria))
         {
             lanches = _lancheRepository.Lanches.OrderBy(x => x.LancheId);
+            categoriaAtual = "Cardápio de Lanches";
         }
         else
         {
             lanches = _lancheRepository.Lanches.Where(x => x.Categoria.CategoriaNome.ToUpper().Equals(categoria.ToUpper())).OrderBy(x => x.LancheId);
-            categoriaAtual = categoria;
+            //Format string - Caso o usuario tente pesquisa pela propria URL, fazer com que exiba de uma forma bonita
+            string categoriaFormatada = categoria.Substring(0, 1).ToUpper() + categoria.Substring(1, (categoria.Length - 1)).ToLower();
+
+            categoriaAtual = lanches.Any() ? $"Cardápio de Lanches - {categoriaFormatada}" : $"Lanches não encontrados.";
         }
 
         var model = new LancheListViewModel
