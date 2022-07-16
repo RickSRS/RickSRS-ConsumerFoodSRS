@@ -46,4 +46,28 @@ public class LancheController : Controller
         var lanche = _lancheRepository.Lanches.FirstOrDefault(x => x.LancheId == lancheId);
         return View(lanche);
     }
+
+    public ViewResult Busca(string searchString)
+    {
+        IEnumerable<Lanche> lanches;
+        string categoriaAtual = string.Empty;
+
+        if (string.IsNullOrEmpty(searchString))
+        {
+            lanches = _lancheRepository.Lanches.OrderBy(x => x.LancheId);
+            categoriaAtual = "Cardápio de Lanches";
+        }
+        else
+        {
+            lanches = _lancheRepository.Lanches.Where(x => x.Nome.ToUpper().Contains(searchString.ToUpper())).OrderBy(x => x.LancheId);
+            string categoriaFormatada = searchString.Substring(0, 1).ToUpper() + searchString.Substring(1, (searchString.Length - 1)).ToLower();
+            categoriaAtual = lanches.Any() ? $"Cardápio de Lanches - {categoriaFormatada}" : $"Lanches não encontrados.";
+        }
+
+        return View("~/Views/Lanche/List.cshtml", new LancheListViewModel
+        {
+            Lanches = lanches,
+            CategoriaAtual = categoriaAtual
+        });
+    }
 }
