@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TDhyl68jJHB3o0S+LJly68UaBlDn1R9uGcrJS8hMdAs=",
+  "Hash": "VgH3wmYbDrWjp6lBhxiTADgLOKfnjlA88b6KveYinLg=",
   "Source": "ConsumerFoodSRS",
   "BasePath": "_content/ConsumerFoodSRS",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\phone-app-icon.png"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\registro1.jpg",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/registro1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\registro1.jpg"
     },
     {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\remove.ico",
