@@ -19,13 +19,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    @await Component.InvokeAsync("CarrinhoCompraResumo")
+                    @await Component.InvokeAsync("CarrinhoCompraResumo") &nbsp;&nbsp;&nbsp;
                     @await Component.InvokeAsync("CategoriaMenu")
                     <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Contato">Contato</a>
                     <form class="d-flex" role="search" asp-controller="Lanche" asp-action="Busca" method="get">
                         <input class="form-control me-2" type="text" placeholder="Procurar produto" aria-label="Procurar produto" name="searchString" value="@ViewData["searchString"]">
                     </form>
+                    @await Html.PartialAsync("_LoginPartial")
                 </div>
             </div>
         </nav>
