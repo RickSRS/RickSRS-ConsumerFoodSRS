@@ -1,6 +1,7 @@
 ﻿using ConsumerFoodSRS.Models;
 using ConsumerFoodSRS.Repositories.Interfaces;
 using ConsumerFoodSRS.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsumerFoodSRS.Controllers;
@@ -30,6 +31,7 @@ public class CarrinhoCompraController : Controller
         return View(carrinhoCompraVM);
     }
 
+    [Authorize]
     public RedirectToActionResult AdicionarCarrinhoCompra(int lancheId)
     {
         var lancheSelecionado = _lancheRepository.Lanches.FirstOrDefault(x => x.LancheId == lancheId);
@@ -42,6 +44,7 @@ public class CarrinhoCompraController : Controller
         return RedirectToAction("Carrinho");
     }
 
+    [Authorize]
     public RedirectToActionResult RemoverItemCarrinhoCompra(int lancheId)
     {
         var lancheSelecionado = _lancheRepository.Lanches.FirstOrDefault(x => x.LancheId == lancheId);

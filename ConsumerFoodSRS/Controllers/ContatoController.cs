@@ -6,6 +6,10 @@ public class ContatoController : Controller
 {
     public IActionResult Contato()
     {
-        return View();
+        if (User.Identity.IsAuthenticated)
+        {
+            return View();
+        }
+        return RedirectToAction("Login", "Account");
     }
 }

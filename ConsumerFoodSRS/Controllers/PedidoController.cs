@@ -1,5 +1,6 @@
 ﻿using ConsumerFoodSRS.Models;
 using ConsumerFoodSRS.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ConsumerFoodSRS.Controllers;
@@ -15,11 +16,13 @@ public class PedidoController : Controller
         _carrinhoCompra = carrinhoCompra;
     }
 
+    [Authorize]
     public IActionResult Checkout()
     {
         return View();
     }
 
+    [Authorize]
     [HttpPost]
     public IActionResult Checkout(Pedido pedido)
     {
