@@ -66,6 +66,7 @@ public class AccountController : Controller
             if (result.Succeeded)
             {
                 //await _signInManager.SignInAsync(user, isPersistent: false); //Caso queira fazer o signIn logo em seguida
+                await _userManager.AddToRoleAsync(user, "Member");
                 return RedirectToAction("Login", "Account");
             }
             ModelState.AddModelError("Registro", "Falha ao registrar o usuário");
