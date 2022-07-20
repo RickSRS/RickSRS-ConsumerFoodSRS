@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ConsumerFoodSRS.Areas.Administration.Controllers;
 
 [Area("Administration")]
-[Authorize]
+[Authorize("Admin")]
 public class AdminController : Controller
 {
     public IActionResult Index()

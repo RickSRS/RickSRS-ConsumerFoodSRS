@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uzctVQZ2snntOgN/6gbEd7+W5/yI31oES5a+tGnedW8=",
+  "Hash": "7LlwotGal5xsF9S/QRFOzK7iGsTR6g8GzJisDTbiVCw=",
   "Source": "ConsumerFoodSRS",
   "BasePath": "_content/ConsumerFoodSRS",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\login_48.png"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\negado1.jpg",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\negado1.jpg"
     },
     {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\phone-app-icon.png",
