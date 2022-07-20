@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VgH3wmYbDrWjp6lBhxiTADgLOKfnjlA88b6KveYinLg=",
+  "Hash": "uzctVQZ2snntOgN/6gbEd7+W5/yI31oES5a+tGnedW8=",
   "Source": "ConsumerFoodSRS",
   "BasePath": "_content/ConsumerFoodSRS",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\adminarea.jpg",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\adminarea.jpg"
     },
     {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\carousel11.jpg",
