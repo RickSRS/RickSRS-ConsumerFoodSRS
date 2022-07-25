@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ConsumerFoodSRS.Context;
 using ConsumerFoodSRS.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
 
 namespace ConsumerFoodSRS.Areas.Administration.Controllers
 {
@@ -23,10 +24,19 @@ namespace ConsumerFoodSRS.Areas.Administration.Controllers
         }
 
         // GET: Administration/AdminLanches
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
         {
-            var appDbContext = _context.Lanches.Include(l => l.Categoria);
-            return View(await appDbContext.ToListAsync());
+            var result = _context.Lanches.Include(l => l.Categoria).AsNoTracking().AsQueryable();
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                result = result.Where(p => p.Nome.ToLower().Contains(filter.ToLower()));
+            }
+
+            var model = await PagingList.CreateAsync(result, 5, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
         }
 
         // GET: Administration/AdminLanches/Details/5
