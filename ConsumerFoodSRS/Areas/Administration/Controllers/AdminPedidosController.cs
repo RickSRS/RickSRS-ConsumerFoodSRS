@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ConsumerFoodSRS.Context;
 using ConsumerFoodSRS.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ConsumerFoodSRS.Areas.Administration.Controllers
 {
     [Area("Administration")]
+    [Authorize(Roles = "Admin")]
     public class AdminPedidosController : Controller
     {
         private readonly AppDbContext _context;
