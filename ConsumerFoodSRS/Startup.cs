@@ -5,6 +5,7 @@ using ConsumerFoodSRS.Repositories.Interfaces;
 using ConsumerFoodSRS.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
 
 namespace ConsumerFoodSRS;
 public class Startup
@@ -58,6 +59,12 @@ public class Startup
         services.AddScoped(x => CarrinhoCompra.GetCarrinho(x));
 
         services.AddControllersWithViews();
+
+        services.AddPaging(options =>
+        {
+            options.ViewName = "Bootstrap4";
+            options.PageParameterName = "pageindex";
+        });
 
         services.AddMemoryCache();
         services.AddSession();

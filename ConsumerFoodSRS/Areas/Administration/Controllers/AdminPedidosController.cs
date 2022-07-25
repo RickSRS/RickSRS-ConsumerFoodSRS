@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using ConsumerFoodSRS.Context;
 using ConsumerFoodSRS.Models;
 using Microsoft.AspNetCore.Authorization;
+using ReflectionIT.Mvc.Paging;
+using Microsoft.AspNetCore.Routing;
 
 namespace ConsumerFoodSRS.Areas.Administration.Controllers
 {
@@ -23,9 +25,19 @@ namespace ConsumerFoodSRS.Areas.Administration.Controllers
         }
 
         // GET: Administration/AdminPedidos
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filter, int pageindex = 1, string sort = "Nome")
         {
-              return View(await _context.Pedidos.ToListAsync());
+            var result = _context.Pedidos.AsNoTracking().AsQueryable();
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                result = result.Where(p => p.Nome.ToLower().Contains(filter.ToLower()));
+            }
+
+            var model = await PagingList.CreateAsync(result, 5, pageindex, sort, "Nome");
+            model.RouteValue = new RouteValueDictionary { { "filter", filter } };
+
+            return View(model);
         }
 
         // GET: Administration/AdminPedidos/Details/5
@@ -151,14 +163,14 @@ namespace ConsumerFoodSRS.Areas.Administration.Controllers
             {
                 _context.Pedidos.Remove(pedido);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PedidoExists(int id)
         {
-          return _context.Pedidos.Any(e => e.PedidoId == id);
+            return _context.Pedidos.Any(e => e.PedidoId == id);
         }
     }
 }
