@@ -7,6 +7,7 @@ using ConsumerFoodSRS.Context;
 using ConsumerFoodSRS.Models;
 using Microsoft.AspNetCore.Authorization;
 using ReflectionIT.Mvc.Paging;
+using ConsumerFoodSRS.ViewModels;
 
 namespace ConsumerFoodSRS.Areas.Administration.Controllers
 {
@@ -19,6 +20,27 @@ namespace ConsumerFoodSRS.Areas.Administration.Controllers
         public AdminPedidosController(AppDbContext context)
         {
             _context = context;
+        }
+
+        public IActionResult PedidoLanche(int? id)
+        {
+            var pedido = _context.Pedidos.Include(pd => pd.PedidoItens)
+                                         .ThenInclude(l => l.Lanche)
+                                         .FirstOrDefault(x => x.PedidoId == id);
+
+            if(pedido == null)
+            {
+                Response.StatusCode = 404;
+                return View("PedidoNotFound", id.Value);
+            }
+
+            PedidoLancheViewModel pedidoLanches = new PedidoLancheViewModel
+            {
+                Pedido = pedido,
+                PedidoDetalhes = pedido.PedidoItens
+            };
+
+            return View(pedidoLanches);
         }
 
         // GET: Administration/AdminPedidos
