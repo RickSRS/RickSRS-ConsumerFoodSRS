@@ -1,4 +1,5 @@
-﻿using ConsumerFoodSRS.Context;
+﻿using ConsumerFoodSRS.Areas.Administration.Services;
+using ConsumerFoodSRS.Context;
 using ConsumerFoodSRS.Models;
 using ConsumerFoodSRS.Repositories;
 using ConsumerFoodSRS.Repositories.Interfaces;
@@ -47,6 +48,8 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
+        services.AddScoped<RelatorioVendasService>();
+
         services.AddAuthorization(options =>
         {
             options.AddPolicy("Admin", politica => 
