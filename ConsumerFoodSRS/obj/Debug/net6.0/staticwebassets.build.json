@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7LlwotGal5xsF9S/QRFOzK7iGsTR6g8GzJisDTbiVCw=",
+  "Hash": "Bj95F2WSW7c0mCD4787vuTCOglawCiaDBw58FURE3yI=",
   "Source": "ConsumerFoodSRS",
   "BasePath": "_content/ConsumerFoodSRS",
   "Mode": "Default",
@@ -204,6 +204,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Envelope-icon24.png"
     },
     {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\erro1.png",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/erro1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\erro1.png"
+    },
+    {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\faleconosco1.jpg",
       "SourceId": "ConsumerFoodSRS",
       "SourceType": "Discovered",
@@ -338,6 +355,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\remove.ico"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\upload2.png",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/upload2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload2.png"
+    },
+    {
+      "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\images\\visualizar1.jpg",
+      "SourceId": "ConsumerFoodSRS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\",
+      "BasePath": "_content/ConsumerFoodSRS",
+      "RelativePath": "images/visualizar1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\visualizar1.jpg"
     },
     {
       "Identity": "D:\\Workspaces\\Visual Studio\\Projetos\\ConsumerFoodSRS\\ConsumerFoodSRS\\wwwroot\\js\\site.js",
